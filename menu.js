@@ -1,15 +1,15 @@
 const API_URL = 'https://api.lanyard.rest/v1';
 const USERID = '551717751509614605';
 const pfp = document.getElementById('pfp');
-const status = document.getElementById('status');
-const statusDot = document.getElementById('status-dot');
-const status2 = document.getElementById('status2');
-const username = document.getElementById('username');
-const bigImage = document.getElementById('activity-big-image');
-const smallImage = document.getElementById('activity-small-image');
-const name = document.getElementById('activity-name');
-const state = document.getElementById('activity-state');
-const details = document.getElementById('activity-detail');
+const status = document.getElementById('durum');
+const statusDot = document.getElementById('durum-noktası');
+const status2 = document.getElementById('durum2');
+const username = document.getElementById('kullanıcı-adı');
+const bigImage = document.getElementById('etkinlik-bresim');
+const smallImage = document.getElementById('etkinlik-kresim');
+const name = document.getElementById('etkinlik-adı');
+const state = document.getElementById('etkinlik-durumu');
+const details = document.getElementById('etkinlik-detayı');
 async function fetchResponse(userId) {
     try {
         const res = await fetch(`${API_URL}/users/${userId}`);
