@@ -27,7 +27,6 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 100vh;
     gap: 10px;
     background: url(resim/neon.gif);
     background-position: center;
