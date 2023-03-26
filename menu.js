@@ -1,4 +1,3 @@
-const API_URL = 'https://api.lanyard.rest/v1';
 const USERID = '551717751509614605';
 const pfp = document.getElementById('pfp');
 const status = document.getElementById('durum');
@@ -92,7 +91,7 @@ async function setStatus() {
     if (!state) {
         return;
     }
-    status.innerHTML = `Status: "${state}"`;
+    innerHTML = `Status: "${state}"`;
 }
 async function setActivityBigImage() {
     const {

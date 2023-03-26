@@ -43,6 +43,7 @@ a {
     border: 1px solid rgba(255, 255, 255, 0.212);
     padding: 12px;
     width: 50%;
+    margin: auto;
 }
 .kart-mesajı {
     font-size: 12px;
@@ -69,7 +70,7 @@ a {
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    background-color: #fff;
+    background-color: #faa81a; /*online: #3ba45d idle: #faa81a dnd: #ed4245 offline: #747e8c*/
     position: absolute;
     top: 0px;
     right: 0px;
@@ -84,6 +85,9 @@ a {
 #durum {
     opacity: 0.5;
     transition: all 0.6s ease;
+}
+#durum2 {
+    color: #faa81a;
 }
 
 /* \ Profile / */
@@ -251,7 +255,7 @@ a {
 
 
 .başlık {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
 }
 
