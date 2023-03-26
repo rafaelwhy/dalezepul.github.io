@@ -16,6 +16,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
+    background-color: black;
 }
 a {
     color: #a00000;
@@ -164,30 +165,6 @@ a {
     -webkit-backdrop-filter: blur(3px);
 }
 
-.ok {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: all 5 ease-in-out;
-    z-index: 2;
-}
-
-.yazı {
-    position: relative;
-    z-index: 1;
-}
-
-.buton:hover .ok {
-    transform: translate(calc(50% + 20px), -50%) scale(1);
-    right: 0;
-    opacity: 1;
-}
-
-.buton:hover .yazı {
-    transform: translateX(20px);
-}
-  
 .buton:hover {
   transform: translateY(-5px);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
@@ -223,6 +200,11 @@ a {
     background-color: rgb(140, 140, 140, 0.2);
     color: #fff;
 }
+
+.buton span{
+    font-size: 50%;
+}
+
 .mail-girişi {
     display: block;
     margin-bottom: 10px;
